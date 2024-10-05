@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX</title>
+<link rel="website icon" href="./static/pics/logo2.webp">
+<link rel="stylesheet" href="./static/css/htmlstyle.css">
+ <link rel="stylesheet" href="./static/css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav>
+<div class="logo">
+     
+     <img src="./static/pics/logo2.webp" alt="" width="30" height="30" >
+
+     <span>CodeX</span>
+</div>
+<div class="link">
+        <a href="./index.html" id="first" style="text-decoration: underline;">HTML&CSS</a>
+        <a href="./JS.html" id="second">JS</a>
+        <a href="./python.html" id="third">PYTHON</a>
+        <a href="./candcplusplus.html" id="forth">C,C++</a>
+        <a href="./java.html" id="fifth">JAVA</a>
+     <button  onclick="log()">Login</button>
+    </div>
+    </nav>
+
+
+
+<div class="search">  
+<input type="text" name="" id="search" placeholder="search                        ctrl+/">
+<br><br>
+<span style="text-decoration: underline; color: blue;" id="field">Introduction</span>
+<span id="field">Basic Structure</span>
+<span class="folder1" id="field" style="cursor: pointer;text-decoration: none;"><span id="list1"> > Tags</span></span>
+    <div class="items1">
+    <ul>
+        <li  id="it">hr</li>
+        <li id="it">br</li>
+        <li id="it">img</li>
+        <li id="it">i</li>
+    </ul>
+</div>
+<span class="folder2" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list2"> > connecter</span></span>
+<div class="items2">
+    <ul>
+        <li id="it">html&css</li>
+        <li id="it">html&js</li>
+       
+    </ul>
+</div>
+<span class="folder3" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list3"> > Attributes</span></span>
+<div class="items3">
+    <ul>
+        <li  id="it">Attributes of Font tag</li>
+        <li  id="it">Attributes of P tag</li>
+    </ul>
+</div>
+<span class="folder4" id="field" style="cursor: pointer;text-decoration: none;"><span id="list4"> > css</span></span>
+<div class="items4">
+    <ul>
+        <li id="it">Basic</li>
+        <li id="it">Moderate</li>
+    </ul>
+</div>
+<span id="field">HTML Editer</span>
+<span id="field">Id and Class</span>
+<span  id="field">Server</span>
+<span id="field">DataBase</span>
+<span class="folder5" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list5"> > Advance Project</span></span>
+<div class="items5">
+    <ul>
+        <li id="it">Email Validation</li>
+        <li id="it">Multiple-Pages-ADD</li>
+        <li id="it">Signup & Login System</li>
+    </ul>
+</div>
+<span class="folder6" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list6"> > Basic Project</span></span>
+<div class="items6">
+    <ul>
+        <li id="it">Pure HTML Project</li>
+        <li id="it">Pure HTML & css Project</li>
+        <li id="it">Pure HTML & JS Project</li>
+        <li id="it">HTML,CSS & JS Project</li>
+    </ul>
+</div>
+
+<span id="field">Import Icons</span>
+<span id="field">Import Fonts</span>
+<span id="field">Hosting</span>
+<span class="folder7" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list7"> > Listen and Speak</span></span>
+<div class="items7">
+    <ul>
+        <li id="it">Basic</a>
+        <li id="it">Example</li>
+    </ul>
+</div>
+<span class="folder8" id="field"  style="cursor: pointer;text-decoration: none;"><span id="list8"> > DOM</span></span>
+<div class="items8">
+    <ul>
+        <li id="it">Basic</a>
+        <li id="it">Moderate</li>
+        <li id="it">Location Object</li>
+        <li id="it">History Object</li>
+    </ul>
+</div>
+
+</div>
+
+<div class="toggle">
+    <h3>Dark Mode</h3>
+    <input type="checkbox" id="che">
+    <label for="che" class="label"></label>
+</div>
+
+
+
+<div class="containers">
+  <div class="intro">
+<h1 style="color: blue;position: relative;left: 30px;width: 200px;" id="tst">Introdution</h1>
+<p style="font-size: 15px;">HTML (<font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">HyperText Markup Language</font>) and CSS (<font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">Cascading Style Sheets</font>) are the foundational technologies for creating and designing web pages.
+</p>
+<p style="font-size: 15px;">HTML consists of a series of elements. Each element represents a part of the page (like headings, paragraphs, images, links, etc.).
+    These elements are like building blocks. You stack them together to create the final web page.</p>
+    <p style="font-size: 15px;">CSS describes how HTML elements should be displayed. It’s like the fashion designer for your web pages.
+        You can change fonts, colors, spacing, column layouts, and even add animations—all with CSS.</p>  
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">1. The Birth of HTML:</h3>
+<p style="font-size: 15px;">(a) In 1980, while working as a contractor at CERN (the European Organization for Nuclear Research), Tim Berners-Lee proposed and prototyped a system called ENQUIRE. This system allowed CERN researchers to share and use documents.</p>
+<p style="font-size: 15px;">(b) In 1989, Berners-Lee took things a step further. He wrote a memo proposing an Internet-based hypertext system—a system that would allow users to navigate interconnected documents using hyperlinks.</p>
+<p style="font-size: 15px;">(c) As part of this vision, he specified HTML (HyperText Markup Language), which would define the content and structure of web pages.</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;">2. The Birth of the World Wide Web:
+</h3>
+<p style="font-size: 15px;">(a) In late 1990, Tim Berners-Lee not only specified HTML but also wrote the browser and server software necessary to make it all work.</p>
+
+<p style="font-size: 15px;">(b) The following year, in 1991, he made the first-ever website available to the public. It was a simple page that explained what the World Wide Web was and how to use it.</p>
+    <p style="font-size: 15px;">(c) This marked the birth of the World Wide Web as we know it today.</p>
+
+    <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">3. The Birth CSS:</h3>
+    <p style="font-size: 15px;">On October 10, 1994, Lie submitted his proposal for CSS, outlining how it could solve the problem of document presentation being solely controlled by HTML.</p>
+    <p style="font-size: 15px;" class="conpara">His idea gained traction, and CSS became an essential part of the web development toolkit.</p>
+
+
+
+<h1 style="color: blue;position: relative;left: 30px;width: 200px;">History</h1>
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">HTML History:</h3>
+<p>
+  <ul type="circle" style="font-size: 15px;color: purple;">
+    <li>1989: Tim Berners-Lee invented the World Wide Web.</li>
+    <li>1991: Tim Berners-Lee created HTML.</li>
+    <li>1995: HTML 2.0 was defined.</li>
+    <li>1999: HTML 4.01 became a W3C recommendation.</li>
+    <li>2000: XHTML 1.0 was recommended.</li>
+    <li>2008: WHATWG introduced HTML5.</li>
+    <li>2014: HTML5 became a W3C recommendation.</li>
+</ul>
+   
+    We're currently following the latest HTML5 standard.</p>
+    
+        <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">CSS History:</h3>
+
+        <p>
+            <ul type="circle" id="css" style="font-size: 15px;color: purple;">
+              <li><u style="text-decoration: underline rgb(255, 0, 170);">Early Beginnings (1994-1995):</u> Hakon Wium Lie proposed CSS while working at CERN with Tim Berners-Lee, aiming to separate content from layout.</li>
+                <li><u style="text-decoration: underline rgb(255, 0, 170);">CSS1 (1995):</u> The first CSS specification (CSS1) was published by the World Wide Web Consortium (W3C). CSS1 introduced basic styling capabilities like fonts, colors, and margins.</li>
+                    <li><u style="text-decoration: underline rgb(255, 0, 170);">CSS2 (1998):</u> CSS2 was released, introducing new features such as positioning, z-index, and media types, which allowed for more sophisticated and adaptable layouts. It also included support for tables and the :hover pseudo-class.</li>
+                        <li><u style="text-decoration: underline rgb(255, 0, 170);">CSS2.1 (2011):</u> CSS2.1 became a W3C Recommendation, refining and improving CSS2 by addressing ambiguities and inconsistencies. It became widely adopted and served as a foundation for future developments.
+                            <li><u style="text-decoration: underline rgb(255, 0, 170);">CSS3 (2000s-2011):</u> CSS3 began development as modular specifications. It introduced significant new features, including advanced selectors, media queries, and new layout modules (like Flexbox and Grid). CSS3 was released in multiple modules, each evolving independently.</li>
+                                <li><u style="text-decoration: underline rgb(255, 0, 170);">Modern CSS (2010s-present):</u> Ongoing advancements include the introduction of new features like custom properties (variables), advanced grid layouts, and new CSS functions. The specification is now developed in an iterative and modular fashion, with improvements and new features being added regularly.</li>
+             
+          </ul>
+        </p>
+
+
+
+        <div style="position: absolute;left: 305px;margin-top: 10px;">
+            <span style="font-size: 15px;position: relative;top: -5px;">Bengali : </span><audio controls src=""
+                style="height: 30px;position: relative;top: 3px;"></audio>
+        </div>
+        <br>
+        <div style="position: absolute;left: 323px;height: 90px;margin-top: 5px;">
+            <span style="font-size: 15px;position: relative;top: 20px;">Hindi : </span><audio controls src=""
+                style="height: 30px;position: relative;top: 30px;"></audio>
+        </div>
+
+</div>
+
+</div>
+
+
+<div class="contect">
+<!-- <marquee><p class="sli">CodeX is a platform for  Learning.These website clear your basic of those languages(html,css,python,etc...).</p></marquee> -->
+<h3>Contect Details</h3>
+<i class="fa-brands fa-whatsapp" id="whats"></i><span style="font-family: 'Roboto'; position: relative;left: 740px;top: 36px;">+917303180433</span>
+<i class="fa-solid fa-envelope" id="mail"></i><span style="font-family: 'Roboto'; position: relative;left: 600px;top: 60px;">pclenovo780@gmail.com</span>
+
+<div class="icon">
+    <i class="fa-brands fa-facebook" id="facebook"></i>
+    <i class="fa-brands fa-instagram" id="instragram"></i>
+   <i class="fa-brands fa-google" id="google"></i>
+    <i class="fa-brands fa-youtube" id="youtube"></i>
+    <i class="fa-brands fa-github" id="github"></i>
+</div>
+<form action="" class="box" method="post">
+    <input type="text" name="text" id="question" placeholder="comment box"  required onfocus="change()" onkeydown="javascript : return random_function(event)">
+</form>
+<!-- <p id="queen" onclick="sou()">Source Code</p> -->
+
+ <button id="queen" onclick="inbo()">Inbox</button>
+ <i class="fa-solid fa-inbox" id="gh"></i>
+</div>
+<div class="card">
+    <img src=""/>
+    <small id="user">Username :</small>
+    <h2 id="na">Anonymous</h2>
+<small id="ema">Email :</small>
+<h2 id="ema1">Anonymous@gmail.com</h2>
+<button id="close">X</button>
+<button class="button">Log in</button>
+<button id="logout">Logout</button>
+</div>
+
+<div class="card2">
+<button>X</button>
+<div class="container">
+ <div class="head">
+ <font>Inbox</font>
+  </div>
+<div class="content"></div>
+</div>
+</div>
+</body>
+<script>
+
+
+
+</script>
+<script src="./static/js/main.js"></script>
+<script src="./static/js/html&css.js"></script>
+
+</html>

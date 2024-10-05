@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX</title>
+<link rel="website icon" href="./static/pics/logo2.webp">
+<link rel="stylesheet" href="./static/css/jspage.css">
+ <link rel="stylesheet" href="./static/css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav>
+<div class="logo">
+     <!-- <img src="{{url_for('static' ,filename='pics/logo2.webp')}}" alt="" width="30" height="30" > -->
+     <img src="./static/pics/logo2.webp" alt="" width="30" height="30" >
+
+     <span>CodeX</span>
+</div>
+<div class="link">
+        <a href="./index.html" id="first">HTML&CSS</a>
+        <a href="./JS.html" id="second" style="text-decoration: underline;">JS</a>
+        <a href="./python.html" id="third">PYTHON</a>
+        <a href="./candcplusplus.html" id="forth">C,C++</a>
+        <a href="./java.html" id="fifth">JAVA</a>
+     <button  onclick="log()">Login</button>
+    </div>
+   
+    </nav>
+
+
+
+<div class="search">  
+<input type="text" name="" id="search" placeholder="search                        ctrl+/">
+<br><br> 
+<span style="text-decoration: underline;color: blue;" id="field">Introduction</span>
+<span id="field">Basic Structure</span>
+<span class="folder1" id="field" style="cursor: pointer;text-decoration: none;"><span id="list1"> > Functions</span></span>
+    <div class="items1">
+    <ul>
+        <li  id="it">Normal Function</li>
+        <li id="it">Function Expression</li>
+        <li id="it">Arrow Function</li>
+        <li id="it">Example</li>
+    </ul>
+</div>
+
+
+<span class="folder2" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list2"> > connecter</span></span>
+<div class="items2">
+    <ul>
+        <li id="it">html</li>
+        <li id="it">html&js</li>
+        <li id="it">Example</li>
+       
+    </ul>
+</div>
+<span id="field">Data Types</span>
+<span id="field">Type Casting</span>
+<span class="folder3" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list3"> > Loops</span></span>
+<div class="items3">
+    <ul>
+        <li  id="it">For Loop</li>
+        <li  id="it">While loop</li>
+        <li  id="it">Do-While Loop</li>
+        <li  id="it">Foreach loop</li>
+        <li  id="it">Example</li>
+        
+    </ul>
+</div>
+
+
+<span class="folder4" id="field" style="cursor: pointer;text-decoration: none;"><span id="list4"> > Conditional Statement</span></span>
+<div class="items4">
+    <ul>
+        <li id="it">If-Else</li>
+        <li id="it">Switch</li>
+        <li id="it">Example</li>
+    </ul>
+</div>
+<span id="field">String Methods</span>
+<span id="field">Try-Catch Box</span>
+<span class="folder5" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list5"> > Operaters</span></span>
+<div class="items5">
+    <ul>
+        <li id="it">Arithmetic Operaters</li>
+        <li id="it">Comparision Operaters</li>
+        <li id="it">Logical Operaters</li>
+        <li id="it">Conditional Operaters</li> 
+        <li id="it">Example</li>
+          
+     </ul>
+</div>
+
+
+<span class="folder6" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list6"> > OOPs</span></span>
+<div class="items6">
+    <ul>
+        <li id="it">Class & Objects</li>
+        <li id="it">Class Inheritance</li>
+    </ul>
+</div>
+<span id="field">User Input</span>
+<span id="field">SetTimeout</span>
+<span id="field">SetInterval</span>
+<span class="folder7" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list7"> > Modules</span></span>
+<div class="items7">
+    <ul>
+        <li id="it">Datetime Modules</li>
+        <li id="it">Math Module</li>
+        <li id="it">Build Your Own Module</li>
+    </ul>
+</div>
+
+
+<span class="folder8" id="field"  style="cursor: pointer;text-decoration: none;"><span id="list8"> > Projects</span></span>
+<div class="items8">
+    <ul>
+        <li id="it">Projects1</a>
+        <li id="it">Projects2</li>
+    </ul>
+</div>
+</div>
+
+<div class="toggle">
+    <h3>Dark Mode</h3>
+    <input type="checkbox" id="che">
+    <label for="che" class="label"></label>
+</div>
+
+<div class="containers">
+    <div class="intro">
+<h1 style="color: blue;position: relative;left: 30px;width: 200px;" id="tst">Introdution</h1>
+<p style="font-size: 16px;">JavaScript is a <font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">lightweight, interpreted (or just-in-time compiled) programming language.</font>
+    While it’s most famous for powering web pages, it’s also used in other environments like Node.js, Apache CouchDB, and even Adobe Acrobat.And JS(javascript) is a <font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">OBJECT ORIENTED PROGRAMMING LANGUAGE.</font>
+</p>
+<p style="font-size: 16px;">JavaScript makes HTML pages more dynamic and interactive. You can use it to manipulate content, validate forms, create animations, and respond to user interactions. </p>
+<h3 style="color:  rgb(255, 0, 247);position: relative;left: 30px;width: 400px;">Dynamic and Multi-Paradigm:</h3>
+<p style="font-size: 16px;"> 
+    JavaScript is dynamic. It can create objects on the fly, handle variable parameter lists, and even evaluate code dynamically (thanks to eval).
+    It’s also multi-paradigm, which means it supports various programming styles:
+    Object-Oriented: You can create and manipulate objects.
+</p>
+<h3 style="color:  rgb(255, 0, 247);position: relative;left: 30px;width: 400px;">ECMAScript and Standards:</h3>
+    <p style="font-size: 16px;">  The official standards for JavaScript are the ECMAScript Language Specification (ECMA-262) and the ECMAScript Internationalization API (ECMA-402).
+    Whenever a new feature is implemented in browsers, MDN (Mozilla Developer Network) documents it. So, it’s like a living language that evolves over time.</p>
+    
+  
+    <h3 style="color: rgb(255, 0, 247);position: relative;left: 30px;width: 400px;">Fun Fact: Not Java!</h3> 
+    <p style="font-size: 16px;"> Despite the name similarity, JavaScript and Java are like distant cousins who ended up with similar names at a family reunion.
+    They have different syntax, semantics, and use cases. So, no, JavaScript isn’t “Interpreted Java.”</p>
+
+    <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 400px;font-size: 18px;">1. The Birth of JS(javascript):</h3>
+    <p style="font-size: 16px;"><font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">JavaScript was created in 1995 by Brendan Eich, while he was working at Netscape Communications Corporation.</font> At the time, Netscape wanted a scripting language that would allow web developers to add interactive elements to websites, something more lightweight than Java, which was also gaining popularity.</p>
+    <p style="font-size: 16px; color: purple;" >Originally, it was developed under the name Mocha, then renamed LiveScript, and finally became JavaScript as part of a marketing collaboration with Sun Microsystems</p>
+
+<p style="font-size: 16px; color: purple;">The development of JavaScript was rapid. Eich was tasked with creating the language in just 10 days. Despite the limited time, he succeeded in creating a dynamic, easy-to-learn language that could run directly in web browsers. Its main purpose was to handle client-side interactions, such as form validation or responding to user events (like button clicks), without the need to reload the web page from the server.JavaScript was officially released in December 1995 with Netscape Navigator 2.0. Over time, JavaScript became increasingly popular, and the language evolved significantly. To promote standardization, JavaScript was submitted to ECMA International, resulting in the ECMAScript specification, which underpins the language we know today</p>
+
+ <h1 style="color: blue;position: relative;left: 30px;width: 200px;">History</h1>
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 400px;;">1. Cloud Server Deployment:</h3>
+<p style="font-size: 16px; "> Cloud servers are virtual servers that run within a cloud computing environment. They offer several benefits:</p>
+   
+<ul type="circle">
+    <li style="position: relative;left: 21px; width: 200px;font-size: 15px;"> Economic Efficiency:</li>
+   <p style="color: blueviolet;">You pay for what you use, and scaling is flexible.</p>
+     <li style="position: relative;left: 21px;width: 130px;font-size: 15px;"> Customization: </li>
+    <p style="color: blueviolet;">You can modify server software to your needs.</p>
+<li style="position: relative;left: 21px;width: 205px;font-size: 15px;">Stability and Security: </li>
+    <p style="color: blueviolet;">Cloud providers handle infrastructure maintenance.</p>
+   <h3 style="color: rgb(0, 140, 255);position: relative;left: -13px;width: 560px;font-size: 18px;">2. Popular cloud platforms for deploying JavaScript apps include:</h3>
+    <li style="position: relative;left: 21px;width: 130px;font-size: 15px;">Google Cloud:</li> 
+    <p style="color: blueviolet;"> Offers a wide range of services, including Compute Engine for virtual machines.</p>
+    <li style="position: relative;left: 21px;width: 150px;font-size: 15px;">Microsoft Azure:</li> 
+     <p style="color: blueviolet;">Provides various services for hosting applications.</p>
+    <li style="position: relative;left: 21px;width: 130px;font-size: 15px;">Netlify:</li>
+    <p style="color: blueviolet;"> Specializes in static site hosting and continuous deployment.
+    To deploy, you typically bundle your front-end (HTML, CSS, and JavaScript) and back-end (Node.js,Express.js) code and host them on cloud servers.</p>
+     <h3 style="color: rgb(0, 140, 255);position: relative;left: -13px;width: 500px;font-size: 18px;">3. Front-End Frameworks and CSS Libraries:</h3>
+    <p style="color: blueviolet;width: 580px;">Before deployment, consider using front-end frameworks and CSS libraries to enhance your app’s appearance and functionality:</p>
+    <li style="position: relative;left: 52px;list-style-type:square;color: blue;width: 190px;font-size: 16px;">Front-End Frameworks:</li>
+    <p style="color: blueviolet;"> React, Vue, Angular, Preact, Svelte, and Polymer are popular choices.</p>
+    <li style="position: relative;left: 52px;list-style-type:square;color: blue;width: 150px;font-size: 16px;">CSS Frameworks:</li>
+    <p style="color: blueviolet;">Bootstrap, Bulma, and Tailwind provide pre-styled components and layouts.</p>
+    <li style="position: relative;left: 52px;list-style-type:square;color: blue;width: 150px;font-size: 16px;">GitHub Pages:</li>
+        <p style="color: blueviolet;"> If your app is a static website (no server-side logic), consider deploying it using GitHub Pages.
+        Push your code to a GitHub repository, enable GitHub Pages in the repository settings, and your app will be live!</p> 
+  
+</ul> 
+   
+   
+
+
+
+<div style="position: absolute;left: 305px;margin-top: 10px;">
+    <span style="font-size: 15px;position: relative;top: -5px;">Bengali : </span><audio controls src=""
+        style="height: 30px;position: relative;top: 3px;"></audio>
+</div>
+<br>
+<div style="position: absolute;left: 323px;height: 90px;margin-top: 5px;">
+    <span style="font-size: 15px;position: relative;top: 20px;">Hindi : </span><audio controls src=""
+        style="height: 30px;position: relative;top: 30px;"></audio>
+</div>
+</div>
+</div>
+
+
+
+<div class="contect">
+<!-- <marquee><p class="sli">CodeX is a platform for  Learning.These website clear your basic of those languages(html,css,python,javascript,..).</p></marquee> -->
+<h3>Contect Details</h3>
+<i class="fa-brands fa-whatsapp" id="whats"></i><span style="font-family: 'Roboto'; position: relative;left: 740px;top: 36px;">+917303180433</span>
+<i class="fa-solid fa-envelope" id="mail"></i><span style="font-family: 'Roboto'; position: relative;left: 600px;top: 60px;">pclenovo780@gmail.com</span>
+
+<div class="icon">
+    <i class="fa-brands fa-facebook" id="facebook"></i>
+    <i class="fa-brands fa-instagram" id="instragram"></i>
+   <i class="fa-brands fa-google" id="google"></i>
+    <i class="fa-brands fa-youtube" id="youtube"></i>
+    <i class="fa-brands fa-github" id="github"></i>
+</div>
+<form action="" class="box" method="post">
+    <input type="text" name="text" id="question" placeholder="comment box"  required onfocus="change()" onkeydown="javascript : return random_function(event)">
+</form>
+<!-- <p id="queen" onclick="sou()">Source Code</p> -->
+<i class="fa-solid fa-inbox" id="gh"></i>
+<button id="queen" onclick="inbo()">Inbox</button>
+</div>
+<div class="card">
+    <img src="">
+    <small id="user">Username :</small>
+    <h2 id="na">Anonymous</h2>
+<small id="ema">Email :</small>
+<h2 id="ema1">Anonymous@gmail.com</h2>
+<button id="close">X</button>
+<button class="button">Log in</button>
+<button id="logout">Logout</button>
+
+</div>
+
+<div class="card2">
+    <button>X</button>
+<div class="container">
+     <div class="head">
+     <font>Inbox</font>
+      </div> 
+    <div class="content"></div>
+  </div>
+</div>
+
+</body>
+<script>
+
+
+</script>
+<script src="./static/js/main.js"></script>
+<script src="./static/js/jspage.js"></script>
+</html>

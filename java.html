@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX</title>
+<link rel="website icon" href="./static/pics/logo2.webp">
+<link rel="stylesheet" href="./static/css/javapage.css">
+ <link rel="stylesheet" href="./static/css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav>
+<div class="logo">
+     <!-- <img src="{{url_for('static' ,filename='pics/logo2.webp')}}" alt="" width="30" height="30" > -->
+     <img src="./static/pics/logo2.webp" alt="" width="30" height="30" >
+
+     <span>CodeX</span>
+</div>
+<div class="link">
+        <a href="./index.html" id="first">HTML&CSS</a>
+        <a href="./JS.html" id="second">JS</a>
+        <a href="./python.html" id="third" >PYTHON</a>
+        <a href="./candcplusplus.html" id="forth">C,C++</a>
+        <a href="./java.html" id="fifth" style="text-decoration: underline;">JAVA</a>
+     <button  onclick="log()">Login</button>
+    </div>
+   
+    </nav>
+
+
+
+    <div class="search">  
+        <input type="text" name="" id="search" placeholder="search                        ctrl+/">
+        <br><br> 
+        <span style="text-decoration: underline;color: blue;" id="field">Introduction</span>
+        <span id="field">Basic Structure</span>
+        <span class="folder1" id="field" style="cursor: pointer;text-decoration: none;"><span id="list1"> > Functions</span></span>
+            <div class="items1">
+            <ul>
+                <li   id="it">Normal Function</li>
+                <li id="it">Function Expression</li>
+              
+                <li id="it">Example</li>
+            </ul>
+        </div>
+        
+        
+        <span class="folder2" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list2"> > connecter</span></span>
+        <div class="items2">
+            <ul>
+                <li id="it">import</li>
+                <li id="it">Example</li>
+               
+            </ul>
+        </div>
+        <span id="field">Data Types</span>
+        <span id="field">Type Casting</span>
+        <span class="folder3" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list3"> > Loops</span></span>
+        <div class="items3">
+            <ul>
+                <li  id="it">For Loop</li>
+                <li id="it">While loop</li>
+                <li  id="it">Do-While Loop</li>
+                <li id="it"  >Example</li>
+                
+            </ul>
+        </div>
+        
+        
+        <span class="folder4" id="field" style="cursor: pointer;text-decoration: none;"><span id="list4"> > Conditional Statement</span></span>
+        <div class="items4">
+            <ul>
+                <li id="it">If-Else</li>
+                <li id="it">Switch</li>
+                <li id="it">Example</li>
+            </ul>
+        </div>
+        <span id="field">String Methods</span>
+        <span id="field">Try-Catch Box</span>
+        <span class="folder5" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list5"> > Operaters</span></span>
+        <div class="items5">
+            <ul>
+                <li id="it">Arithmetic Operaters</li>
+                <li id="it">Comparision Operaters</li>
+                <li id="it">Logical Operaters</li>
+                <li id="it">Example</li>
+                  
+             </ul>
+        </div>
+        
+        
+        <span class="folder6" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list6"> > OOPs</span></span>
+        <div class="items6">
+            <ul>
+                <li id="it">Class & Objects</li>
+                <li id="it">Class Inheritance</li>
+            </ul>
+        </div>
+        <span id="field">User Input</span>
+       
+        <span class="folder7" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list7"> > Modules</span></span>
+        <div class="items7">
+            <ul>
+                <li id="it">Datetime Modules</li>
+                <li id="it">Math Module</li>
+                <li id="it">Build Your Own Module</li>
+            </ul>
+        </div>
+        
+        
+        <span class="folder8" id="field"  style="cursor: pointer;text-decoration: none;"><span id="list8"> > Projects</span></span>
+        <div class="items8">
+            <ul>
+                <li id="it">Projects1</a>
+                <li id="it">Projects2</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="toggle">
+            <h3>Dark Mode</h3>
+            <input type="checkbox" id="che">
+            <label for="che" class="label"></label>
+        </div>
+
+        
+<div class="containers">
+    <div class="intro">
+<h1 style="color: blue;position: relative;left: 30px;width: 200px;" id="tst">Introdution</h1>
+<p style="font-size: 15px;">Java is a <font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);"> high-level, object-oriented programming language</font> developed by <font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);"> James Gosling and his team Sun Microsystems (now owned by Oracle) in 1995.</font></p>
+<p style="font-size: 15px;"> It's designed to be platform-independent, meaning that code written in Java can run on any platform that has a Java Virtual Machine (JVM). This concept is often summarized as "write once, run anywhere" (WORA).</p>
+
+
+<h1 style="color: blue;position: relative;left: 30px;width: 290px;font-size: 22px;" >The Birth of JAVA</h1>
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;font-size: 15px;">1. Origins and Early Development (1991–1995):</h3>
+<p style="font-size: 15px;">
+    <ul type="circle" style="font-size: 16px;">
+        <h4 style="color: rgb(0, 81, 255);">Green Project: </h4>
+     
+            <li style="color: rgb(124, 6, 235);margin-bottom: 8px;"> Java started in 1991 as part of a project called the "Green Project" led by James Gosling. The goal was to create a platform-in</li>
+      <h4 style="color: rgb(0, 81, 255);">Oak :</h4>
+            <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Initially, the language was called "Oak" after an oak tree that stood outside Gosling's office. The name was later changed to "Java" because "Oak" was already trademarked.
+        </li>
+    </ul>
+</p>
+
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;font-size: 15px;">2. Java 1.0 (1995): </h3>
+<p style="font-size: 15px;">
+    <ul type="circle" style="font-size: 16px;">
+        
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;"> Java was officially launched in 1995 with the release of Java 1.0. It quickly gained popularity due to its platform independence, garbage collection, and robust security features.
+        </li><h4 style="color: rgb(0, 81, 255);">Applet:  </h4><li style="color: rgb(124, 6, 235);margin-bottom: 8px;">One of the initial attractions was the ability to run applets (small Java programs) embedded in web browsers, which gave Java an edge in web development.
+        </li>
+   
+</ul></p> 
+   
+ 
+    <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;font-size: 15px;">3. Java 2 and Standardization (1998–1999) :
+    </h3>
+<p style="font-size: 15px;">
+    <ul type="circle" style="font-size: 16px;">
+        
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;list-style-type: none;"> In 1998, Sun Microsystems released Java 2 (also called Java 1.2), which introduced significant changes and enhancements to the language.
+        </li>
+     <font style="color: red;margin-left: -20px;margin-bottom: 18px;">The platform was split into three editions:
+    </font>   
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-top: 18px;">Java Standard Edition (Java SE) for desktop applications.
+
+     </li>
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Java Enterprise Edition (Java EE) for large-scale enterprise applications</li>
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Java Micro Edition (Java ME) for mobile and embedded systems.</li>
+    </ul>
+  </p>  
+    
+  <p style="font-size: 15px;">
+    <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;font-size: 15px;">4. Java and Open Source (2006): </h3>
+    <ul type="circle" style="font-size: 16px;">
+        
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;"> In 1998, Sun Microsystems released Java 2 (also called Java 1.2), which introduced significant changes and enhancements to the language.
+          In 2006, Sun Microsystems made the majority of Java's core components open source by releasing them under the GNU General Public License (GPL). This made Java more accessible and encouraged a wide range of community contributions.
+            
+</li> 
+    </ul>
+  </p>  
+
+  <p style="font-size: 15px;"> 
+  <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;font-size: 15px;">5. Oracle Acquisition and Modern Java (2010–Present): </h3>
+
+   <p class="p1">In 2010, Oracle Corporation acquired Sun Microsystems, taking over the development of Java.</p> 
+ <ul type="circle" style="font-size: 16px;">
+        
+    <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Java SE 7 (2011): Introduced several new features like the try-with-resources statement, diamond operator, and enhanced support for dynamic languages.
+    </li>
+    <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Java SE 8 (2014): One of the most important releases, introducing lambda expressions, streams API, and functional programming features, making Java more modern and capable of handling concurrent and parallel programming better.
+    </li>
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Java SE 9 (2017): Introduced the module system (Project Jigsaw), which allowed better structuring of large applications.
+        </li>
+            <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Java SE 11 (2018): Marked the beginning of Oracle's new release cycle, promising long-term support (LTS) versions every few years.
+            </li>
+</p>  
+
+<h1 style="color: blue;position: relative;left: 0px;width: 350px;font-size: 25px;">Features & Significance</h1>
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Platform Independence: </h2>
+                
+            <p style="font-size: 15px;"> Java applications can run on any platform that has the Java Virtual Machine (JVM), which allows "write once, run anywhere" (WORA) capability.
+            </p>
+
+              <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Object-Oriented: </h2>
+                
+            <p style="font-size: 15px;">Everything in Java is an object, which helps organize code, makes it reusable, and supports key OOP principles like inheritance, encapsulation, polymorphism, and abstraction.
+            </p> 
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Simple and Easy to Learn:  </h2>
+            <p style="font-size: 15px;">  Java’s syntax is simple, clean, and easy to understand, which makes it easier for developers to write, read, and maintain code.
+            </p>
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Secure:  </h2>
+            <p style="font-size: 15px;"> Java provides a secure environment through features like bytecode verification, sandboxing, and a security manager, which allow the development of applications with high security requirements.
+            </p>
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Multithreading:   </h2>
+            <p style="font-size: 15px;">Java has built-in support for multithreading, allowing multiple tasks to run concurrently, making programs efficient and responsive.</p>
+
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">High Performance:   </h2>
+            <p style="font-size: 15px;">While Java is interpreted, just-in-time (JIT) compilation helps improve performance by compiling code to native machine code during runtime.</p>
+
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Android Development:    </h2>
+            <p style="font-size: 15px;">Java is the official programming language for Android app development, which makes it critical in the mobile application space. Millions of Android apps have been built using Java, driving its popularity in mobile software development.</p>
+
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;font-size: 17px;">Game Development:    </h2>
+            <p style="font-size: 15px;">Java is widely used in game development, particularly for mobile games (Android) and desktop applications.</p>
+            
+<h3 style="font-size: 15px;color: rgb(244, 140, 4);">1. Libraries and Frameworks for Java Game Development    :
+</h3>
+
+<p style="font-size: 15px;">Java offers several libraries and frameworks that simplify game development:
+</p>
+<ul type="circle" style="font-size: 16px;margin-left: 3px;">
+    <h3 style="color: rgb(0, 140, 255);font-size: 15px;">LibGDX:</h3>
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;"> A powerful framework that allows you to develop 2D and 3D games. It’s cross-platform, meaning you can run your games on Android, iOS, Windows, Linux, and macOS.
+
+   </li>
+   <h3 style="color: rgb(0, 140, 255);font-size: 15px;">jMonkeyEngine:</h3>
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;"> Ideal for 3D game development. It supports advanced features such as physics, shaders, and multiplayer networking.
+
+   </li>  
+   <h3 style="color: rgb(0, 140, 255);font-size: 15px;">LWJGL (Lightweight Java Game Library):</h3>
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;">  A low-level library that provides access to cross-platform libraries like OpenGL, OpenAL, and OpenCL. It’s commonly used in higher-level game frameworks like LibGDX
+   </li> 
+</ul>
+        
+ 
+<h3 style="font-size: 15px;color: rgb(244, 140, 4);">2.  Physics and Collision Detection :
+</h3>
+   <p style="font-size: 15px;"> For simple games, you can implement your own physics (e.g., gravity, collision detection). However, for more complex games, use physics engines such as:</p>
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;"> Box2D (via LibGDX): A popular 2D physics engine.
+    </li><li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;">jBullet (via jMonkeyEngine): A 3D physics engine.
+  </li>
+  <h3 style="font-size: 15px;color: rgb(244, 140, 4);">3.  Audio :
+</h3>   <p style="font-size: 15px;">Java provides audio capabilities through the javax.sound package. For more complex audio needs (like 3D sound or advanced sound effects), consider using OpenAL through LWJGL or other libraries.</p> 
+
+<h3 style="font-size: 15px;color: rgb(244, 140, 4);">4. Input Handling :
+</h3>  <p style="font-size: 15px;">Handling user input (keyboard, mouse, or gamepad) is essential in games. Java provides input handling through KeyListener and MouseListener interfaces. More advanced libraries like LibGDX offer richer input handling APIs.</p>
+
+<h3 style="font-size: 15px;color: rgb(244, 140, 4);">5. Networking (for Multiplayer Games)    :
+</h3>  <p style="font-size: 15px;">Java has built-in support for networking using Sockets and Datagrams. You can use these for implementing multiplayer features in games, although libraries like Netty can simplify this process for larger projects.</p>
+
+
+
+
+
+
+        <div style="position: absolute;left: 305px;margin-top: 10px;">
+            <span style="font-size: 15px;position: relative;top: -5px;">Bengali : </span><audio controls src=""
+                style="height: 30px;position: relative;top: 3px;"></audio>
+        </div>
+        <br>
+        <div style="position: absolute;left: 323px;height: 90px;margin-top: 5px;">
+            <span style="font-size: 15px;position: relative;top: 20px;">Hindi : </span><audio controls src=""
+                style="height: 30px;position: relative;top: 30px;"></audio>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="contect">
+<!-- <marquee><p class="sli">CodeX is a platform for  Learning.These website clear your basic of those languages(html,css,python,etc...).</p></marquee> -->
+<h3>Contect Details</h3>
+<i class="fa-brands fa-whatsapp" id="whats"></i><span style="font-family: 'Roboto'; position: relative;left: 740px;top: 36px;">+917303180433</span>
+<i class="fa-solid fa-envelope" id="mail"></i><span style="font-family: 'Roboto'; position: relative;left: 600px;top: 60px;">pclenovo780@gmail.com</span>
+
+<div class="icon">
+    <i class="fa-brands fa-facebook" id="facebook"></i>
+    <i class="fa-brands fa-instagram" id="instragram"></i>
+   <i class="fa-brands fa-google" id="google"></i>
+    <i class="fa-brands fa-youtube" id="youtube"></i>
+    <i class="fa-brands fa-github" id="github"></i>
+</div>
+<form action="" class="box" method="post">
+    <input type="text" name="text" id="question" placeholder="comment box"  required onfocus="change()" onkeydown="javascript : return random_function(event)">
+</form>
+<!-- <p id="queen" onclick="sou()">Source Code</p> -->
+<i class="fa-solid fa-inbox" id="gh"></i>
+<button id="queen" onclick="inbo()">Inbox</button>
+</div>
+<div class="card">
+    <img src="">
+    <small id="user">Username :</small>
+    <h2 id="na">{{name}}</h2>
+<small id="ema">Email :</small>
+<h2 id="ema1">{{email}}</h2>
+<button id="close">X</button>
+<button class="button">Log in</button>
+<button id="logout">Logout</button>
+
+</div>
+
+<div class="card2">
+    <button>X</button>
+<div class="container">
+     <div class="head">
+     <font>Inbox</font>
+      </div> 
+    <div class="content"></div>
+  </div>
+</div>
+
+</body>
+<script>
+
+
+</script>
+<script src="./static/js/main.js"></script>
+<script src="./static/js/javapage.js"></script>
+</html>

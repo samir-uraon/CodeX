@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX</title>
+    <link rel="website icon" href="./static/pics/logo2.webp">
+<link rel="stylesheet" href="./static/css/candcpp.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./static/pics/logo2.webp" alt="" width="30" height="30">
+
+            <span>CodeX</span>
+        </div>
+        <div class="link">
+            <a href="./index.html" id="first">HTML&CSS</a>
+            <a href="./JS.html" id="second">JS</a>
+            <a href="./python.html" id="third">PYTHON</a>
+            <a href="./candcplusplus.html" style="text-decoration: underline;" id="forth">C,C++</a>
+            <a href="./java.html" id="fifth">JAVA</a>
+            <button onclick="log()">Login</button>
+        </div>
+
+    </nav>
+
+
+
+    <div class="search">
+        <input type="text" name="" id="search" placeholder="search                        ctrl+/">
+        <br><br>
+        <span style="text-decoration: underline;color: blue;" id="field">Introduction</span>
+        <span id="field">Basic Structure</span>
+        <span class="folder1" id="field" style="cursor: pointer;text-decoration: none;"><span id="list1"> > Functions</span></span>
+        <div class="items1">
+            <ul>
+                <li id="it">Normal Function</li>
+                <li id="it">Function Expression</li>
+                <li id="it">Example</li>
+            </ul>
+        </div>
+
+
+        <span class="folder2" id="field" style="cursor: pointer;text-decoration: none;"><span id="list2"> > connecter</span></span>
+        <div class="items2">
+            <ul>
+           
+                <li id="it">Example for c</li>
+                <li id="it">Example for c++</li>
+
+            </ul>
+        </div>
+        <span id="field">Data Types</span>
+        <span id="field">Type Casting</span>
+        <span class="folder3" id="field" style="cursor: pointer;text-decoration: none;"><span id="list3"> > Loops</span></span>
+        <div class="items3">
+            <ul>
+                <li id="it">For Loop</li>
+                <li id="it">While loop</li>
+                <li id="it">Do-While Loop</li>
+               
+                <li id="it">Example</li>
+
+            </ul>
+        </div>
+
+
+        <span class="folder4" id="field" style="cursor: pointer;text-decoration: none;"><span id="list4"> > Conditional
+                Statement</span></span>
+        <div class="items4">
+            <ul>
+                <li id="it">If-Else</li>
+                <li id="it">Switch</li>
+                <li id="it">Example</li>
+            </ul>
+        </div>
+        <span id="field">String Methods</span>
+        <span id="field">Try-Catch Box</span>
+        <span class="folder5" id="field" style="cursor: pointer;text-decoration: none;"><span id="list5"> > Operaters</span></span>
+        <div class="items5">
+            <ul>
+                <li id="it">Arithmetic Operaters</li>
+                <li id="it">Comparision Operaters</li>
+                <li id="it">Logical Operaters</li>
+               
+                <li id="it">Example</li>
+
+            </ul>
+        </div>
+
+
+        <span class="folder6" id="field" style="cursor: pointer;text-decoration: none;"><span id="list6"> > OOPs</span></span>
+        <div class="items6">
+            <ul>
+                <li id="it">Class & Objects</li>
+                <li id="it">Class Inheritance</li>
+            </ul>
+        </div>
+        <span id="field">User Input</span>
+        
+
+        <span class="folder7" id="field" style="cursor: pointer;text-decoration: none;"><span id="list7"> > Modules</span></span>
+        <div class="items7">
+            <ul>
+                <li id="it">conic</li>
+                <li id="it">stdlib</li>
+                <li id="it">Built your own module</li>
+            </ul>
+        </div>
+
+
+        <span class="folder8" id="field" style="cursor: pointer;text-decoration: none;"><span id="list8"> > Projects</span></span>
+        <div class="items8">
+            <ul>
+                <li id="it">Projects1</a>
+                <li id="it">Projects2</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="toggle">
+        <h3>Dark Mode</h3>
+        <input type="checkbox" id="che">
+        <label for="che" class="label"></label>
+    </div>
+
+
+
+    <div class="containers">
+        <div class="intro">
+            <h1 style="color: blue;position: relative;left: 30px;width: 200px;" id="tst">Introdution</h1>
+            <p style="font-size: 15px;">C is a general-purpose, low-level programming language that has had a
+                significant impact on the field of computer science.
+            </p>
+            <p style="font-size: 15px;">C++ is a high-level, general-purpose programming language that has had a
+                significant impact on software development.</p>
+            <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 280px;font-size: 16.7px;">1. The Birth of C language :
+            </h3>
+            <p style="font-size: 15px;">The C programming language was created by <font
+                    style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">Dennis Ritchie</font> in
+                1972 at Bell Labs. It was developed as part of the <font
+                    style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">Unix operating system
+                </font> and became one of the most widely used programming languages, influencing many other languages
+                like C++, Java, and C#.</p>
+            <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 280px;font-size: 16.7px;">3. The Birth C++:</h3>
+            <p style="font-size: 15px;">C++ was created by Bjarne Stroustrup, a Danish computer scientist, in 1979 while
+                working at Bell Labs.Stroustrup developed C++ as an extension of the C programming language to provide
+                object-oriented features and better control over system resources. Initially called "C with Classes," it
+                was renamed to C++ in 1983, where "++" indicates an increment, symbolizing an enhancement of the
+                original C language.</p>
+
+
+
+
+            <h1 style="color: blue;position: relative;left: 30px;width: 200px;">History</h1>
+
+            <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 280px;font-size: 16.7px;">C language History:</h3>
+            <p style="font-size: 15px;">
+            <ul type="circle" style="font-size: 16px;">
+                <h4 style="color: rgb(0, 81, 255);">1. Predecessors:BCPL and B (1960s)</h4>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The roots of C lie in two earlier languages:
+                    BCPL (Basic Combined Programming Language), developed by Martin Richards, and B, developed by Ken
+                    Thompson at Bell Labs.</li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">B was derived from BCPL and was created to run
+                    on the early UNIX systems. However, B lacked certain capabilities such as data types, which led to
+                    limitations.</li>
+                <h4 style="color: rgb(0, 81, 255);">2. Creation of C (Early 1970s)</h4>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Dennis Ritchie began working on improvements to
+                    B to add features like data types. This led to the development of C around 1972.</li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The purpose of C was to make the UNIX operating
+                    system more portable across different machines, as it allowed developers to write system-level code
+                    in a higher-level language than assembly.</li>
+                <h4 style="color: rgb(0, 81, 255);">3. UNIX and C (1970s)</h4>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C was primarily used to rewrite the UNIX
+                    operating system, which helped in its adoption. By 1973, most of UNIX was rewritten in C, making it
+                    one of the first operating systems to be written in a high-level programming language.</li>
+                <li style="color:rgb(124, 6, 235);margin-bottom: 8px;">The portability of C contributed significantly to
+                    the widespread adoption of UNIX, which in turn helped popularize the language.</li>
+                <h4 style="color: rgb(0, 81, 255);">4. Standardization of C (1980s)</h4>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">As C grew in popularity, it was adopted widely
+                    across different platforms, and variations began to emerge.</li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">To address this, the American National Standards
+                    Institute (ANSI) formed a committee to standardize the language, resulting in the ANSI C standard in
+                    1989. This version is often referred to as C89.
+                </li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The International Organization for
+                    Standardization (ISO) also adopted the standard in 1990, often referred to as C90.
+                </li>
+                <h4 style="color: rgb(0, 81, 255);">5. Later Developments (1990s and Beyond)</h4>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C continued to evolve with further standards,
+                    such as C99 in 1999, which introduced new features like inline functions, new data types, and
+                    variable-length arrays.</li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The C11 standard in 2011 introduced more
+                    improvements, such as better support for multi-threading and Unicode.
+                </li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;"> C18, the latest revision as of 2018, mainly
+                    made minor clarifications to C11 without introducing major new features.</li>
+
+            </ul>
+
+         </p>
+
+            <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 280px;font-size: 16.7px;">C++ language History:</h3>
+            <p style="font-size: 15px;color: rgb(0, 81, 255);;">
+                
+            <ul type="circle" id="css" style="font-size: 16px;">
+                <h3 style="color: rgb(0, 81, 255);">1. Development of "C with Classes" (1979–1983):</h3>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Bjarne Stroustrup began developing a language called "C with Classes" while working on his PhD. He was inspired by Simula, the first object-oriented programming language, but wanted the efficiency of C.
+
+                </li>  <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The initial idea was to combine C’s powerful low-level capabilities with features for more complex programming paradigms, such as object orientation, abstraction, and code reuse.
+                </li>
+                    <h3 style="color: rgb(0, 81, 255);">2. Introduction of C++ (1983):</h3>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">Stroustrup renamed the language C++ in 1983, with "++" being a reference to the increment operator in C, symbolizing the evolution from C to C++.</li>
+<li style="color: rgb(124, 6, 235);margin-bottom: 8px;"> C++ added important features like classes, inheritance, and strong type checking while retaining the low-level functionality and performance benefits of C.
+                    </li>
+                    <h3 style="color: rgb(0, 81, 255);">3. C++ Standardization (1990s):</h3>
+                    <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The first widely adopted C++ standardization effort started in 1989 by the ANSI (American National Standards Institute), culminating in the publication of the first official C++ standard, ISO/IEC 14882:1998, known as C++98, in 1998.</li>
+           <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">The Standard Template Library (STL), which includes generic data structures and algorithms, became a core part of C++ during this period.</li>
+           <h3 style="color: rgb(0, 81, 255);">4. C++11 (2011):
+        </h3>     
+           <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C++11 was a major update to the language, introducing significant new features like auto, lambda expressions, move semantics, concurrency support, and many standard library improvements. </li>
+                
+           <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">It aimed to make C++ easier to use while increasing performance and providing better support for modern hardware.</li>
+               <h3 style="color: rgb(0, 81, 255);">5. C++14 (2014) and C++17 (2017):
+</h3>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C++14 introduced minor improvements and bug fixes to C++11, focusing on usability enhancements.
+                </li>
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C++17 brought more significant features, such as std::optional, std::variant, and structured bindings, aiming for cleaner and more expressive code.
+                </li>
+
+                
+                
+                <h3 style="color: rgb(0, 81, 255);">6. C++20 (2020):</h3>
+                
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C++20 introduced even more significant updates, including concepts (a new way to constrain template parameters), ranges, coroutines, and modules, which significantly improve the organization and compilation of large codebases.
+                
+                </li>
+                
+                <h3 style="color: rgb(0, 81, 255);"> 7. Future of C++:</h3>
+                
+                <li style="color: rgb(124, 6, 235);margin-bottom: 8px;">C++23, scheduled for release in 2023, is expected to introduce even more features like improved concurrency support and further refinements to the language and standard library.
+           </li>
+
+            </ul>
+            </p>
+
+            <h1 style="color: blue;position: relative;left: 0px;width: 350px;">Features & Significance</h1>
+            <h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Structured Language: </h2>
+                
+            <p style="font-size: 15px;">C allows for the use of control structures like loops (for, while, do-while) and conditionals (if, else, switch), enabling structured programming practices.
+            </p>
+
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Standard Library: </h2>
+<p style="font-size: 15px;">C comes with a standard library (C Standard Library), providing useful built-in functions for input/output operations, string manipulation, memory management, and more.
+</p> 
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Pointers: </h2>
+<p style="font-size: 15px;">provides extensive support for pointer arithmetic, enabling direct manipulation of memory addresses, which is crucial for low-level system programming.
+</p>
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Fast and Efficient:</h2>
+<p style="font-size: 15px;">C is known for its performance and efficiency because it is compiled into machine code, making it suitable for time-sensitive applications like game engines and embedded systems.
+provides extensive support for pointer arithmetic, enabling direct manipulation of memory addresses, which is crucial for low-level system programming.
+</p>
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Memory Management:</h2>
+<p style="font-size: 15px;">C allows manual memory management through the use of pointers and dynamic allocation (malloc, calloc, realloc, free), providing efficient control over memory usage.</p>
+<p style="font-size: 15px;">C++ also allows manual memory management using malloc() and free() (from C), it introduces the new and delete operators for dynamic memory management, along with automatic memory management tools like smart pointers (unique_ptr, shared_ptr, etc.) introduced in C++11. This makes memory management safer and less error-prone.</p>
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Object-Oriented Programming (OOP):</h2>
+<p style="font-size: 15px;">C++ supports OOP principles such as encapsulation, inheritance, and polymorphism, making it suitable for modeling complex systems.
+</p>
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Exception Handling:</h2> 
+
+<p style="font-size: 15px;"> C++ supports exception handling, allowing for better error detection and correction mechanisms.
+</p>
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Function Overloading:</h2> 
+<p style="font-size: 15px;"> C++ allows multiple functions to have the same name but with different signatures (i.e., different parameter types or numbers)
+</p> 
+<h2 style="color: rgb(0, 81, 255);margin-left: 29px;">Namespaces:</h2>
+<p style="font-size: 15px;"> C++ uses namespaces to organize code and avoid name conflicts, especially in large projects.
+</p> 
+
+<h3 style="color: rgb(0, 140, 255);font-size: 16px;"><font color="red">Foundation for Other Languages:</font> C has heavily influenced many modern programming languages like C++, Java, Python, and JavaScript. Understanding C provides a strong foundation for learning these languages.
+</h3>
+<h3 style="color: rgb(0, 140, 255);font-size: 16px;"><font color="red">System-Level Programming:</font>C,C++ is widely used for system programming, including operating systems (like Unix and Linux), device drivers, and embedded systems, because it allows direct interaction with hardware.
+</h3>  <h3 style="color: rgb(0, 140, 255);font-size: 16px;"><font color="red">Compiler Development:</font> C is often used to write compilers and interpreters for other languages. Its low-level capabilities allow developers to create efficient compilers that can directly manage memory and hardware.
+    </h3>
+    <h3 style="color: rgb(0, 140, 255);font-size: 16px;"><font color="red">Game Development:</font> Due to its performance, C++ is the most commonly used language in game development. C++ provides low-level memory management and real-time control, both of which are essential in game programming.
+    </h3>
+    <h3 style="color: rgb(0, 140, 255);font-size: 16px;"><font color="red">Web Browsers
+        :</font>  C++ is used to create web browsers and their underlying rendering engines that convert web pages into visual content.
+    </h3>
+
+    <h3 style="color: rgb(0, 140, 255);font-size: 16px;"><font color="red"> Graphics Processing:</font> C++ is widely used in 3D graphics applications, simulations, and modeling tools due to its speed and ability to handle real-time processing.
+    </h3>
+
+
+    <h1 style="color: blue;position: relative;left: 0px;width: 350px;">Similarity </h1>
+    <h3 style="color: rgb(0, 81, 255);margin-left: 20px;font-size: 18px;"> Syntax:</h3>           
+    <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 27px;font-size: 16px;">Both languages share much of their syntax. Basic structures like loops (for, while), conditional statements (if, else), and variable declarations look similar in both languages.
+</li>
+<h3 style="color: rgb(0, 81, 255);margin-left: 20px;font-size: 18px;"> compilation :</h3>    
+<li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 27px;font-size: 16px;">Both are compiled languages, which means the code needs to be translated into machine code using a compiler before it can be executed.
+</li>
+<h3 style="color: rgb(0, 81, 255);margin-left: 20px;font-size: 18px;"> Standard Library :</h3>           
+<li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 27px;font-size: 16px;">C++ includes the C standard library as part of its standard library. Functions like printf(), scanf(), and other C standard input/output functions are available in C++.</li>
+<h3 style="color: rgb(0, 81, 255);margin-left: 20px;font-size: 18px;"> Performance :</h3>       
+<li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 27px;font-size: 16px;">Both languages are designed for high-performance programming. They are used in system programming, game development, and performance-critical applications.</li> 
+<h3 style="color: rgb(0, 81, 255);margin-left: 20px;font-size: 18px;"> Data Types and Operators:</h3>            
+<li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 27px;font-size: 16px;">Primitive data types (e.g., int, float, char) and operators (e.g., +, -, *, /) are the same in both languages.</li>
+<h1 style="color: blue;position: relative;left: 0px;width: 350px;">Differences  </h1>
+
+ <table border="2" bordercolor="green" cellpadding="10">
+    <th style="color:purple">C</th>
+    <th><font color="purple">C++</font></th>
+    <tr>
+        <td>Memory management in C is entirely manual. Programmers use functions like malloc(), calloc(), realloc(), and free() for dynamic allocate and deallocate memory.</td>
+        <td>C++ also allows manual memory management using malloc() and free() (from C), it introduces the new and delete operators for dynamic memory management</td>
+   </tr>
+   <tr>
+    <td>Does not have built-in support for exception handling.</td>
+    <td>C++ provides exception handling using try, catch, and throw.</td>
+   </tr> 
+   <tr>
+    <td>C not supported function overloading</td>
+    <td>In C++, function overloading enables you to define multiple functions with the same name, as long as they differ in the number or type of parameters.</td>
+   </tr>
+   <tr>
+    <td>C is a Structured language,not a object-oriented-programming-language.</td>
+    <td>C++ is a object-oriented-programming-language.so,it supported constructer and deconstruter</td>
+   </tr>
+   <tr>
+    <td>C is widly use for create others languages(java,ruby,python) and operating system(linux)</td>
+    <td>C++ also can do like C Language,but C++ is widly use for create object-oriented-software like(games,others application)</td>
+   </tr>
+</table>  
+
+
+    <div style="position: absolute;left: 305px;margin-top: 10px;">
+                <span style="font-size: 15px;position: relative;top: -5px;">Bengali : </span><audio controls src=""
+                    style="height: 30px;position: relative;top: 3px;"></audio>
+            </div>
+            <br>
+            <div style="position: absolute;left: 323px;height: 90px;margin-top: 5px;">
+                <span style="font-size: 15px;position: relative;top: 20px;">Hindi : </span><audio controls src=""
+                    style="height: 30px;position: relative;top: 30px;"></audio>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="contect">
+
+        <h3>Contect Details</h3>
+        <i class="fa-brands fa-whatsapp" id="whats"></i><span
+            style="font-family: 'Roboto'; position: relative;left: 740px;top:36px;">+917303180433</span>
+        <i class="fa-solid fa-envelope" id="mail"></i><span
+            style="font-family: 'Roboto'; position: relative;left: 600px;top: 60px;">pclenovo780@gmail.com</span>
+
+        <div class="icon">
+            <i class="fa-brands fa-facebook" id="facebook"></i>
+            <i class="fa-brands fa-instagram" id="instragram"></i>
+            <i class="fa-brands fa-google" id="google"></i>
+            <i class="fa-brands fa-youtube" id="youtube"></i>
+            <i class="fa-brands fa-github" id="github"></i>
+        </div>
+        <form action="" class="box" method="post">
+            <input type="text" name="text" id="question" placeholder="comment box" required onfocus="change()"
+                onkeydown="javascript : return random_function(event)">
+        </form>
+        <!-- <p id="queen" onclick="sou()">Source Code</p> -->
+        <i class="fa-solid fa-inbox" id="gh"></i>
+        <button id="queen" onclick="inbo()">Inbox</button>
+    </div>
+    <div class="card">
+        <img src="">
+        <small id="user">Username :</small>
+        <h2 id="na">Anonymous</h2>
+        <small id="ema">Email :</small>
+        <h2 id="ema1">Anonymous@gmail.com</h2>
+        <button id="close">X</button>
+        <button class="button">Log in</button>
+        <button id="logout">Logout</button>
+
+    </div>
+
+    <div class="card2">
+        <button>X</button>
+        <div class="container">
+            <div class="head">
+                <font>Inbox</font>
+            </div>
+            <div class="content"></div>
+        </div>
+    </div>
+
+</body>
+<script>
+
+</script>
+<script src="./static/js/main.js"></script>
+<script src="./static/js/candcpp.js"></script>
+
+</html>

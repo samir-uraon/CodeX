@@ -1,0 +1,358 @@
+.h1 {
+    color: blue;
+    position: relative;
+    left: 30px;
+    width: 300px;
+}
+
+.p1 {
+
+    font-size: 15px;
+
+}
+
+.cbasic {
+    background-color: rgb(175, 228, 210);
+
+    height: 250px;
+    position: relative;
+    width: 300px;
+    left: 10px;
+    /* border-radius: 20px; */
+
+}
+
+.cbasic .ul {
+
+    font-size: 38px;
+    display: flex;
+    /* border-radius:5px 5px 0 0 ; */
+    column-gap: 10px;
+    width: 260px;
+}
+
+.cbasic .ul li {
+    margin-left: 10px;
+}
+
+.cbasic .main1 {
+    position: relative;
+    top: -35px;
+    width: 300px;
+    height: 260px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.cbasic .title {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 13.5px;
+    margin-left: 60px;
+    color: chartreuse;
+}
+
+.cbasic i {
+    margin-top: 6px;
+    margin-left: -200px;
+     cursor: pointer;
+}
+
+.cbasic .copyok {
+   
+    left: 220px;
+   
+}
+
+.cppbasic {
+    background-color: rgb(175, 228, 210);
+
+    height: 250px;
+    position: relative;
+    top: -288px;
+    width: 300px;
+    left: 350px;
+    /* border-radius: 20px; */
+   
+}
+
+.cppbasic .ul {
+
+    font-size: 38px;
+    display: flex;
+    /* border-radius:5px 5px 0 0 ; */
+    column-gap: 10px;
+    width: 260px;
+}
+
+.cppbasic .ul li {
+    margin-left: 10px;
+}
+
+.cppbasic .main1 {
+    position: relative;
+    top: -35px;
+    width: 300px;
+    height: 260px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.cppbasic .title {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 13.5px;
+    margin-left: 60px;
+    color: chartreuse;
+}
+
+.cppbasic i {
+    margin-top: 6px;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+.cppbasic .copyok {
+ 
+    left: 220px;
+
+}
+
+
+.cppbasic2 {
+    background-color: rgb(175, 228, 210);
+    height: 350px;
+    position: relative;
+    top: -158px;
+    width: 440px;
+    left: 90px;
+    
+    /* border-radius: 20px; */
+   
+}
+
+.cppbasic2 .ul {
+
+    font-size: 38px;
+    display: flex;
+    /* border-radius:5px 5px 0 0 ; */
+    column-gap: 10px;
+    width: 400px;
+}
+
+.cppbasic2 .ul li {
+    margin-left: 10px;
+}
+
+.cppbasic2 .main1 {
+    position: relative;
+    top: -30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
+}
+
+.cppbasic2 .title {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 13.5px;
+    margin-left: 60px;
+    color: chartreuse;
+}
+
+.cppbasic2 i {
+    margin-top: 6px;
+    margin-left: -90px;
+    cursor: pointer;
+}
+
+.cppbasic2 .copyok {
+ 
+    left: 340px;
+
+}
+
+
+.cbasic2 {
+    background-color: rgb(175, 228, 210);
+    height: 300px;
+    position: relative;
+    top: -228px;
+    width: 440px;
+    left: 90px;
+    
+    
+    /* border-radius: 20px; */
+   
+}
+
+.cbasic2 .ul {
+
+    font-size: 38px;
+    display: flex;
+    /* border-radius:5px 5px 0 0 ; */
+    column-gap: 10px;
+    width: 400px;
+    margin-top: -3px;
+}
+
+.cbasic2 .ul li {
+    margin-left: 10px;
+}
+
+.cbasic2 .main1 {
+    position: relative;
+    top: -35px;
+    width: 470px;
+    height: 250px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cbasic2 .title {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 13.5px;
+    margin-left: 60px;
+    color: chartreuse;
+}
+
+.cbasic2 i {
+    margin-top: 6px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.cbasic2 .copyok {
+ 
+    left: 335px;
+
+}
+
+.cimg {
+    background-color: rgb(175, 228, 210);
+    height: 597px;
+    position: relative;
+    top: 80px;
+    width: 680px;
+    left: 10px;
+    
+    
+    border-radius: 20px;
+   
+}
+
+.cimg .ul {
+
+    font-size: 38px;
+    display: flex;
+    /* border-radius:5px 5px 0 0 ; */
+    column-gap: 10px;
+    width: 650px;
+    margin-top: -3px;
+}
+
+.cimg .ul li {
+    margin-left: 10px;
+}
+
+.cimg .main {
+    position: relative;
+    top: -38px;
+    width: 690px;
+    height: 555px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 0px;
+    font-size: 16px;
+   
+}
+
+.cimg .title {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 13.5px;
+    margin-left: 60px;
+    color: chartreuse;
+}
+
+.cimg i {
+    margin-top: 6px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.cimg .copyok {
+ 
+    left: 335px;
+
+}
+
+
+
+.cppimg {
+    background-color: rgb(175, 228, 210);
+    height: 300px;
+    position: relative;
+    top: 150px;
+    width:500px;
+    left: 60px;
+    
+    
+    border-radius: 20px;
+   
+}
+
+.cppimg .ul {
+
+    font-size: 38px;
+    display: flex;
+    /* border-radius:5px 5px 0 0 ; */
+    column-gap: 10px;
+    width:460px;
+    margin-top: -3px;
+}
+
+.cppimg .ul li {
+    margin-left: 10px;
+}
+
+.cppimg .main {
+    position: relative;
+    top: -38px;
+    width:500px;
+    height: 305px;
+    border-radius: 0 0 5px 5px;
+    padding-left: 0px;
+    font-size: 16px;
+   
+}
+
+.cppimg .title {
+    font-size: 18px;
+    position: absolute;
+    margin-top: 13.5px;
+    margin-left: 60px;
+    color: chartreuse;
+}
+
+.cppimg i {
+    margin-top: 6px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.cppimg .copyok {
+ 
+    left: 335px;
+
+}
+

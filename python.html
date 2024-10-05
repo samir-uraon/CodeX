@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeX</title>
+<link rel="website icon" href="./static/pics/logo2.webp">
+<link rel="stylesheet" href="./static/css/pythonpage.css">
+ <link rel="stylesheet" href="./static/css/style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <nav>
+<div class="logo">
+     <!-- <img src="{{url_for('static' ,filename='pics/logo2.webp')}}" alt="" width="30" height="30" > -->
+     <img src="./static/pics/logo2.webp" alt="" width="30" height="30" >
+
+     <span>CodeX</span>
+</div>
+<div class="link">
+        <a href="./index.html" id="first">HTML&CSS</a>
+        <a href="./JS.html" id="second">JS</a>
+        <a href="./python.html" id="third" style="text-decoration: underline;">PYTHON</a>
+        <a href="./candcplusplus.html" id="forth">C,C++</a>
+        <a href="./java.html" id="fifth">JAVA</a>
+     <button  onclick="log()">Login</button>
+    </div>
+   
+    </nav>
+
+
+
+    <div class="search">  
+        <input type="text" name="" id="search" placeholder="search                        ctrl+/">
+        <br><br> 
+        <span style="text-decoration: underline;color: blue;" id="field">Introduction</span>
+        <span id="field">Basic Structure</span>
+        <span class="folder1" id="field" style="cursor: pointer;text-decoration: none;"><span id="list1"> > Functions</span></span>
+            <div class="items1">
+            <ul>
+                <li id="it">Normal Function</li>
+                <li id="it">Function Expression</li>
+              
+                <li id="it">Example</li>
+            </ul>
+        </div>
+        
+        
+        <span class="folder2" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list2"> > connecter</span></span>
+        <div class="items2">
+            <ul>
+                <li>html</li>
+                <li>html&js</li>
+                <li>Example</li>
+               
+            </ul>
+        </div>
+        <span id="field">Data Types</span>
+        <span id="field">Type Casting</span>
+        <span class="folder3" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list3"> > Loops</span></span>
+        <div class="items3">
+            <ul>
+                <li  id="it">For Loop</li>
+                <li id="it">While loop</li>
+                <li  id="it">Do-While Loop</li>
+            
+                <li id="it"  >Example</li>
+                
+            </ul>
+        </div>
+        
+        
+        <span class="folder4" id="field" style="cursor: pointer;text-decoration: none;"><span id="list4"> > Conditional Statement</span></span>
+        <div class="items4">
+            <ul>
+                <li id="it">If-Else</li>
+                <li id="it">Switch</li>
+                <li id="it">Example</li>
+            </ul>
+        </div>
+        <span id="field">String Methods</span>
+        <span id="field">Try-Catch Box</span>
+        <span class="folder5" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list5"> > Operaters</span></span>
+        <div class="items5">
+            <ul>
+                <li id="it">Arithmetic Operaters</li>
+                <li id="it">Comparision Operaters</li>
+                <li id="it">Logical Operaters</li>
+                <li id="it">Conditional Operaters</li> 
+                <li id="it">Example</li>
+                  
+             </ul>
+        </div>
+        
+        
+        <span class="folder6" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list6"> > OOPs</span></span>
+        <div class="items6">
+            <ul>
+                <li>Class & Objects</li>
+                <li>Class Inheritance</li>
+            </ul>
+        </div>
+        <span id="field">User Input</span>
+      
+        <span class="folder7" id="field" style="cursor: pointer;text-decoration: none;" ><span id="list7"> > Modules</span></span>
+        <div class="items7">
+            <ul>
+                <li id="it">Datetime Modules</li>
+                <li id="it">Math Module</li>
+                <li id="it">Time Module</li>
+                <li id="it">Build Your Own Module</li>
+            </ul>
+        </div>
+        
+        
+        <span class="folder8" id="field"  style="cursor: pointer;text-decoration: none;"><span id="list8"> > Projects</span></span>
+        <div class="items8">
+            <ul>
+                <li id="it">Projects1</a>
+                <li id="it">Projects2</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="toggle">
+            <h3>Dark Mode</h3>
+            <input type="checkbox" id="che">
+            <label for="che" class="label"></label>
+        </div>
+
+<div class="containers">
+    <div class="intro">
+<h1 style="color: blue;position: relative;left: 30px;width: 200px;" id="tst">Introdution</h1>
+<p style="font-size: 15px;"> Python is a <font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">versatile, high-level programming language</font> known for its simplicity and readability. It supports <font style="text-decoration: underline;text-decoration-color: rgb(255, 98, 0);">multiple programming paradigms, including procedural, object-oriented, and functional programming.</font>
+</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">1. The Birth of PYTHON:</h3>
+<p style="font-size: 15px;">Python was created by Guido van Rossum in the late 1980s, with its first official release in 1991. Van Rossum was working at the Centrum Wiskunde & Informatica (CWI) in the Netherlands at the time and was looking for a hobby project during the Christmas holidays. He wanted to create a language that was easy to read and write, suitable for rapid prototyping, and capable of handling exceptions.
+
+</p>
+<p style="font-size: 15px;">Van Rossum based Python on a variety of influences, most notably the ABC programming language, which was designed for simplicity and ease of use. However, Python was intended to be more powerful and extensible, and it borrowed elements from other languages like C, Modula-3, and Unix shell scripting.
+</p>
+    <p style="font-size: 15px;">The name "Python" was inspired by the British comedy group Monty Python, reflecting Van Rossum’s intention to make the language fun and approachable, in contrast to more formal and complex programming languages of the time.
+    </p>
+
+<p style="font-size: 15px;">Since its inception, Python has grown rapidly in popularity, evolving through many versions, each adding new features and improvements while maintaining its focus on simplicity, readability, and extensibility. Today, Python is widely used for a variety of tasks, including web development, data science, artificial intelligence, automation, and more.</p>
+
+
+
+
+<h1 style="color: blue;position: relative;left: 30px;width: 200px;">History</h1>
+
+ <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px;">1. Early Development (Late 1980s):</h3>
+
+  <ul style="color:rgb(124, 6, 235) ;font-size: 15px;" type="circle">
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Guido van Rossum started working on Python in December 1989 at Centrum Wiskunde & Informatica (CWI) in the Netherlands. He wanted a language that was easy to learn and readable, with fewer complexities than languages like C, but that could still handle a wide range of tasks.
+        </li>
+        <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">The name Python was chosen from van Rossum’s love for the British comedy group Monty Python, not from the snake.
+        </li>
+    </ul>
+ <h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">2. Python 1.0 (1991):</h3> 
+ <ul style="color:rgb(124, 6, 235) ;font-size: 15px;" type="circle">
+    <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python was first publicly released in February 1991 as Python 1.0. This version introduced many fundamental features that remain in the language today, including exception handling, functions, and the core data types like strings and lists.
+    </li>
+    <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python 1.0 was designed to be an approachable language for both new and experienced programmers.
+
+    </li>
+</ul>
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">3. Python 2.0 (2000)   :</h3> 
+<ul style="color:rgb(124, 6, 235) ;font-size: 15px;" type="circle">
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python 2.0 was released on October 16, 2000. This major release included several new features:
+</li>
+   <li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">List comprehensions (inspired by functional programming languages).
+</li>
+<li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">The garbage collector system, which manages memory automatically.
+</li>
+<li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">
+    Support for Unicode, allowing Python to handle international text and symbols more efficiently.
+    </li>
+    <li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">Python 2.x series became widely adopted and remained dominant for many years, with Python 2.7 being the last version of this series (released in 2010).</li>
+</ul>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">4. Python 3.0 (2008)
+    :</h3> 
+<ul style="color:rgb(124, 6, 235) ;font-size: 15px;" type="circle">
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python 3.0, released on December 3, 2008, was a major overhaul designed to fix inconsistencies and remove redundant features from Python 2.x. It was not backward-compatible with Python 2.x, which created challenges for developers.
+</li>
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Key improvements included:
+ </li>
+ <li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">Print function as a built-in, instead of a statement.
+</li>
+ <li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">Better support for Unicode by default.
+</li>
+ <li style="color: rgb(17, 139, 144);margin-bottom: 8px;margin-left: 58px;font-size: 16px;list-style-type: square;">
+    Removal of old-style classes and more consistent syntax.
+    </li>
+    <p class="p1">Python 3 adoption was slow initially, but by the mid-2010s, it became the standard as libraries and tools gradually transitioned.</p>
+</ul>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 290px;">
+    5. End of Python 2 Support (2020):</h3> 
+<ul style="color:rgb(124, 6, 235) ;font-size: 15px;" type="circle">
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python 2 reached its end of life on January 1, 2020. After years of support, no further updates or bug fixes were released for the 2.x series, forcing developers to migrate to Python 3 </li>
+   
+</ul>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 200px;">6. Recent Developments:</h3> 
+<ul style="color:rgb(124, 6, 235) ;font-size: 15px;" type="circle">
+   <li style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">
+
+    Python continues to evolve, with Python 3.11 (released in October 2022) offering major performance improvements and enhanced type hinting, making Python more efficient and reliable in large-scale projects. </li>
+  
+</ul>
+       
+<h1 style="color: blue;position: relative;left: 0px;width: 350px;font-size: 26px;">Features</h1>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">1. Simple and Easy to Learn :
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python has a clean and easy-to-read syntax that closely resembles English. This makes it an ideal language for beginners while still being powerful for experienced developers.
+</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">2. Interpreted Language :
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">Python is an interpreted language, which means that code is executed line by line. This simplifies debugging and testing, allowing developers to run code without needing to compile it first.
+</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">3. Dynamically Typed :
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">In Python, variable types are determined at runtime, which eliminates the need to declare variable types explicitly. This feature makes development faster and code less verbose.
+</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">4. Object-Oriented Programming(OOP) :
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">OOP  is a programming paradigm based on the concept of objects, which can contain data and methods to manipulate that data. Python is an object-oriented language, meaning it supports OOP principles like encapsulation, inheritance, and polymorphism. Below is an overview of key OOP concepts in Python and how they are implemented.</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">5. High-Level Language :
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">
+    Python has a rich standard library that provides modules and functions for various tasks such as file handling, regular expressions, math operations, web protocols, and more. This extensive library reduces the need for external dependencies</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">6. Extensive Standard Library :
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">
+    Python has a rich standard library that provides modules and functions for various tasks such as file handling, regular expressions, math operations, web protocols, and more. This extensive library reduces the need for external dependencies.</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px;font-size: 17px;">7. GUI Programming : 
+</h3>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">GUI (Graphical User Interface) programming in Python allows developers to create applications with visual interfaces that users can interact with through buttons, text boxes, menus, and other graphical elements. Python offers several libraries for building GUIs, each with its own set of features, strengths, and weaknesses.</p>
+<p style="color: rgb(124, 6, 235);margin-bottom: 8px;margin-left: 20px;font-size: 16px;">the most commonly used libraries for GUI programming in Python,</p>
+<ul style="color:rgb(124, 6, 235) ;font-size: 15px;">
+    <li style="color: rgb(17, 139, 144);margin-bottom: 8px;font-size: 16px;list-style-type: square;">Tkinter</li>
+    <li  style="color: rgb(17, 139, 144);margin-bottom: 8px;font-size: 16px;list-style-type: square;">Kivy</li>
+    <li style="color: rgb(17, 139, 144);margin-bottom: 8px;font-size: 16px;list-style-type: square;">Pyqt</li>
+    <li style="color: rgb(17, 139, 144);margin-bottom: 8px;font-size: 16px;list-style-type: square;">Wxpython</li>
+    <li style="color: rgb(17, 139, 144);margin-bottom: 8px;font-size: 16px;list-style-type: square;">Pygtk</li>
+</ul>
+
+
+
+<h1 style="color: blue;position: relative;left: 0px;width: 350px;font-size: 25px;">Significance</h1>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 360px; font-size: 17px;">1. Data Science and Machine Learning 
+</h3>
+<p  style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">Python is the go-to language in the field of data science, artificial intelligence, and machine learning. Libraries like Pandas, NumPy, Scikit-learn, and TensorFlow provide powerful tools for data analysis, machine learning model building, and AI development.
+</p>
+<p style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">Its simplicity allows data scientists to focus on the problem rather than coding intricacies.
+</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px; font-size: 17px;">2. Web Development  
+</h3>
+<p  style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">Python is popular for building web applications due to frameworks like Django and Flask. These frameworks simplify backend development by providing tools for database interaction, URL routing, and template rendering, speeding up the development process.
+</p>
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px; font-size: 17px;">3. Automation and Scripting
+
+</h3>
+<p  style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">Python is widely used for automating repetitive tasks. Its simplicity and versatility make it suitable for writing scripts for file management, web scraping, data processing, and system administration.</p>
+
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px; font-size: 17px;">4. Artificial Intelligence (AI) and Deep Learning
+
+</h3>
+<p  style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">
+    Python is at the forefront of AI and deep learning. Libraries like TensorFlow and Keras provide an accessible way to build and train neural networks, and Python’s ease of use accelerates experimentation in these areas.
+    </p>
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px; font-size: 17px;">5. Game Development
+</h3>
+<p  style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">Although not as common as C++ or Java for game development, Python has frameworks like Pygame that allow developers to create simple games. It’s often used for rapid prototyping and tool development in the game industry.</p>
+
+
+<h3 style="color: rgb(0, 140, 255);position: relative;left: 30px;width: 300px; font-size: 17px;">6. Cybersecurity
+
+</h3>
+<p  style="color:rgb(124, 6, 235) ;font-size: 15px;margin-left: 60px;">In cybersecurity, Python is used for developing security tools, automating security tasks, and writing scripts for penetration testing.</p>
+
+
+
+
+
+        <div style="position: absolute;left: 305px;margin-top: 10px;">
+            <span style="font-size: 15px;position: relative;top: -5px;">Bengali : </span><audio controls src=""
+                style="height: 30px;position: relative;top: 3px;"></audio>
+        </div>
+        <br>
+        <div style="position: absolute;left: 323px;height: 90px;margin-top: 5px;">
+            <span style="font-size: 15px;position: relative;top: 20px;">Hindi : </span><audio controls src=""
+                style="height: 30px;position: relative;top: 30px;"></audio>
+        </div>
+
+
+</div>
+
+</div>
+
+<div class="contect">
+<!-- <marquee><p class="sli">CodeX is a platform for  Learning.These website clear your basic of those languages(html,css,python,etc...).</p></marquee> -->
+<h3>Contect Details</h3>
+<i class="fa-brands fa-whatsapp" id="whats"></i><span style="font-family: 'Roboto'; position: relative;left: 740px;top: 36px;">+917303180433</span>
+<i class="fa-solid fa-envelope" id="mail"></i><span style="font-family: 'Roboto'; position: relative;left: 600px;top: 60px;">pclenovo780@gmail.com</span>
+
+<div class="icon">
+    <i class="fa-brands fa-facebook" id="facebook"></i>
+    <i class="fa-brands fa-instagram" id="instragram"></i>
+   <i class="fa-brands fa-google" id="google"></i>
+    <i class="fa-brands fa-youtube" id="youtube"></i>
+    <i class="fa-brands fa-github" id="github"></i>
+</div>
+<form action="" class="box" method="post">
+    <input type="text" name="text" id="question" placeholder="comment box"  required onfocus="change()" onkeydown="javascript : return random_function(event)">
+</form>
+<!-- <p id="queen" onclick="sou()">Source Code</p> -->
+<i class="fa-solid fa-inbox" id="gh"></i>
+<button id="queen" onclick="inbo()">Inbox</button>
+</div>
+<div class="card">
+    <img src="">
+    <small id="user">Username :</small>
+    <h2 id="na">{{name}}</h2>
+<small id="ema">Email :</small>
+<h2 id="ema1">{{email}}</h2>
+<button id="close">X</button>
+<button class="button">Log in</button>
+<button id="logout">Logout</button>
+
+</div>
+
+
+<div class="card2">
+    <button>X</button>
+<div class="container">
+     <div class="head">
+     <font>Inbox</font>
+      </div> 
+    <div class="content"></div>
+  </div>
+</div>
+</body>
+<script>
+
+
+</script>
+<script src="./static/js/main.js"></script>
+<script src="./static/js/pythonpage.js"></script>
+</html>
