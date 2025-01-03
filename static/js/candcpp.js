@@ -191,9 +191,9 @@ tre1.style.color="purple"
 add(uy2,tre1)
 add(page,uy2)
 
-box("cimg","../static/pics/cimage.png","C Language")
+box("cimg","./static/pics/cimage.png","C Language")
 
-box("cppimg","../static/pics/cppimage.png","C++ Language")
+box("cppimg","./static/pics/cppimage.png","C++ Language")
 
 }
 
