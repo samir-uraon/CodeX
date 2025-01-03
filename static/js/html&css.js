@@ -236,7 +236,7 @@ function bs() {
     te.style.color = "rgb(255, 100,20)"
     te.appendChild(document.createTextNode("The basic structure of HTML like this : "))
     q2.appendChild(te)
-    var tes2 = boxcopy("basichtml", "../static/pics/basichtml.png")
+    var tes2 = boxcopy("basichtml", "./static/pics/basichtml.png")
     tes2.addEventListener("click", () => {
         click4(".copyok")
     })
@@ -250,7 +250,7 @@ function bs() {
     add(page, dy)
 
 
-    box("basic2", "../static/pics/basic2.png")
+    box("basic2", "./static/pics/basic2.png")
 
     var wqr = createT("h1", "First Webpage")
     wqr.classList.add("h12")
@@ -278,7 +278,7 @@ function bs() {
     wq.style.color = "#01a9fd"
     add(page, wq)
 
-    box("output", "../static/pics/basic3.png")
+    box("output", "./static/pics/basic3.png")
 
     var tre1 = createT("a", "VsCode Installation process")
     tre1.href = "https://youtu.be/cu_ykIfBprI?si=zbmFXtJCOy0N2ze9"
@@ -331,7 +331,7 @@ function basicpro() {
     wqe.classList.add("p1")
     wqe.style.color = "rgb(10,25,200)"
     add(page, wqe)
-    box("basicimg1", "../static/pics/bascicprofirst.png")
+    box("basicimg1", "./static/pics/bascicprofirst.png")
     var tteq = createT("p", "Now i create card.html and card.css")
     tteq.classList.add("p1")
     add(page, tteq)
@@ -348,7 +348,7 @@ function basicpro() {
     var qwe = createT("a", "back.jpeg")
     qwe.style.color = "blue"
     qwe.setAttribute("download", "back.jpeg")
-    qwe.setAttribute("href", "../static/pics/back.jpeg")
+    qwe.setAttribute("href", "./static/pics/back.jpeg")
     add(wqo, qwe)
     add(page, wqo)
     var wqo1 = createT("p", "After that the image move to working directory/folder. ")
